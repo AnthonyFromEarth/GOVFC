@@ -1,0 +1,43 @@
+  .container {
+    border: 1px solid black; 
+    background-color: lightgrey;
+  }   
+
+
+  body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+
+  nav{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+  }
+
+  .dropdown-menu a {
+    height:3rem;
+
+
+  }
+
+  .crop-text-1 {
+    -webkit-line-clamp: 1;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+   .Membre , .Prix,.Description{
+    background-color: white;
+  }
+
+.Titre{
+  background-color: gray; 
+  color : white;
+}
+.Container div{
+  border-top: 1px solid darkgrey;
+  border-bottom:  1px solid darkgrey;
+
+}
